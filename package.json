@@ -1,0 +1,16 @@
+{
+  "name": "dynamic-css-masks",
+  "version": "1.0.0",
+  "description": "Dynamic CSS masks with CSS properties and GSAP",
+  "main": "index.html",
+  "repository": "git@github.com:evilquail/dynamic-css-masks.git",
+  "author": "Rohit Kumar <rohitkrops@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
