@@ -5,12 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Dynamic CSS Masks</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main>
-        <h1>Hello world</h1>
+        <div class="content">
+          <header>
+            <button type="button" class="menu-button" data-btn="menu" aria-label="menu">
+              <span class="menu-button-icon">
+                <span></span>
+              </span>
+            </button>
+            <nav class="menu" data-menu>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+            </nav>
+          </header>
+
+          <div class="wrapper">
+            <div class="hero hero--primary">
+              <div class="container">
+                <h1 class="hero-heading" data-splitting>
+                  Welcome to my<br />website
+                </h1>
+              </div>
+            </div>
+            <div class="hero hero--secondary" aria-hidden="true" data-hero>
+              <div class="container">
+                <p class="hero-heading" data-splitting>
+                  Welcome to my<br />website
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
     </main>
-    <script src="/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

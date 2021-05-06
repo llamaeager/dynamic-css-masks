@@ -5,6 +5,7 @@ Read the original article on [Codrops](https://tympanus.net/codrops/2021/05/04/d
 
 Note:--> This is a practice project.
 
+
 ## Make it your own
 ### Fork on CodeSandbox
 Visit the link below to clone this repo on CodeSandbox
@@ -34,7 +35,9 @@ Here you go.
 
 If you face a problem with development server, refer [parcel bunder docs](https://parceljs.org/getting_started.html).
 
+
 ## Libraries
 - [Parcel](https://github.com/parcel-bundler/parcel): Development server
 - [GSAP (GreenSock Animation Platform)](https://github.com/greensock/GSAP): Animation library
 - [Splitting](https://github.com/shshaw/splitting): Splits an element in a variety of ways, such as words, characters, and more!
+- [lodash.throttle](): Debounce mousemove event
